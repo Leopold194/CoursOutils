@@ -2,9 +2,8 @@ import json from '@eslint/json';
 import { defineConfig } from 'eslint/config';
 
 export default defineConfig([
-  // N'ignore pas tous les JS !
   {
-    ignores: ['node_modules/**', 'dist/**'], // Ignorer uniquement les dossiers classiques
+    ignores: ['node_modules/**', 'dist/**'], 
   },
   {
     files: ['**/*.js'],
